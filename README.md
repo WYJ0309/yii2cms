@@ -1,9 +1,5 @@
-
-
 基于FeehiCMS上的进一步完善补充
 
-帮助
----------------
 开发文档[http://doc.feehi.com](http://doc.feehi.com)
 
 功能
