@@ -1,61 +1,11 @@
-FeehiCMS  __[(English)](docs/README_EN.md)__  首款编写单元测试、功能测试、验收测试的yii2开源系统
-===============================
-
-基于yii2的CMS系统，运行环境与yii2(php>=5.4)一致。FeehiCMS旨在为yii2爱好者提供一个基础功能稳定完善的系统，使开发者更专注于业务功能开发。
-FeehiCMS没有对yii2做任何的修改、封装，但是把yii2的一些优秀特性几乎都用在了FeehiCMS上，虽提供文档，
-但FeehiCMS提倡简洁、快速上手，基于FeehiCMS开发可以无需文档，反倒FeehiCMS为yii2文档提供了最好的实例
-
-[![Latest Stable Version](https://poser.pugx.org/feehi/cms/v/stable)](https://packagist.org/packages/feehi/cms)
-[![License](https://poser.pugx.org/feehi/cms/license)](https://packagist.org/packages/feehi/cms)
-[![Build Status](https://www.travis-ci.org/liufee/cms.svg?branch=master)](https://www.travis-ci.org/liufee/cms)
 
 
-更新记录
--------
-2.0.6 后台管理适配手机;增加后台代码注释操作运行命令自动生成权限;优化代码;
-
-2.0.5 优化gii生成后台curd;增加列表页搜索框区域;增加form表单laydate、chosenSelect;修复其他bug
-
-2.0.4 修复bug;增强seo
-
-2.0.3 增加后台详情页;增加x.com/cms/frontend/web访问;修复批量删除不显示原因bug
-
-2.0.2 增加cdn;使用layer弹窗替换swal;修复时间范围搜索需要按回车的bug
-
-2.0.1 增加gii自动生成后台crud;优化后台排序;优化其他功能
-
-2.0.0 修复bug;增加1.0.0系列alpha、beta、rc版所有的功能
-
-1.0.0rc2 修复bug
-
-1.0.0rc1 优化使用
-
-1.0.0beta 3 修复bug
-
-1.0.0beta2 增加自定义图片类型设置;优化管理员角色创建和修改
-
-1.0.0beta1 修复bug
-
-1.0.0alpha3 重写文章tag;修复两次model validate
-
-1.0.0alpha2 修复bug 
-
-1.0.0alpha1 增加restful api,单元测试,行为测试,验收测试;替换为yii2最新模板;优化composer安装依赖替换fxp/composer-asset-plugin为Asset Packagist;重写rbac权限管理替换为yii2内置实现
-
-0.1.3 版本已经集成swoole作为FeehiCMS应用服务器，详细配置及使用参见[yii2-swoole](https://www.github.com/liufee/yii2-swoole)
-
+基于FeehiCMS上的进一步完善补充
 
 帮助
 ---------------
 1. 开发文档[http://doc.feehi.com](http://doc.feehi.com)
 
-2. QQ群 258780872
-
-3. 微信 <br> ![微信](http://img-1251086492.cosgz.myqcloud.com/github/wechat.png)
-
-4. Email job@feehi.com
-
-5. [bug反馈](http://www.github.com/liufee/cms/issues)
 
 
 功能
@@ -188,18 +138,6 @@ FeehiCMS没有对yii2做任何的修改、封装，但是把yii2的一些优秀�
     2. 与上(仅运行单元测试,功能测试)命令一致
 
 
-项目展示
-------------
-* [山东城市服务技师学院](http://www.sdcc.edu.cn/)   
-* [优悦娱乐网](http://www.qqyouyue.com/)  
-* [吉安市食品药品监督管理局](http://www.jamsda.gov.cn/)  
-* [完美娱乐](http://www.qqwanmei.com/)  
-* [房产网](http://www.itufang.cn/)
-* [中丞法拍网](http://www.fapaihouse.com/)  
-* [51前途网](http://www.51uit.com/) 
-* [用友财务软件](http://www.myyonyou.cn/) 
-*  ......
-
 
 运行效果
 ---------
@@ -227,7 +165,3 @@ FeehiCMS没有对yii2做任何的修改、封装，但是把yii2的一些优秀�
 
 ![前台手机首页](docs/frontend_mobile.jpg)
 
-
-特别鸣谢
----------
-[twitf](https://github.com/twitf) 在后台时间搜索范围提供的建议和代码片段
