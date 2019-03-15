@@ -4,9 +4,7 @@
 
 帮助
 ---------------
-1. 开发文档[http://doc.feehi.com](http://doc.feehi.com)
-
-
+开发文档[http://doc.feehi.com](http://doc.feehi.com)
 
 功能
 ---------------
